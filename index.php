@@ -14,8 +14,8 @@ if(isset($_REQUEST['page'])) {
 	$pageinfo = (object) array(
 							   'id' => 0,
 							   'name' => 'Home',
-							   'module' => 'blog',
-							   'template' => $defaultmodule
+							   'module' => $defaultmodule,
+							   'template' => $defaulttemplate
 							   );
 }
 

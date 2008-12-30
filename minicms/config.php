@@ -10,6 +10,7 @@ $dbuser = "root";
 $dbpass = "root";
 $dbname = "minicms";
 
-// Default Module Info
-$defaultmodule = "blog.php"
+// Default Page Info
+$defaultmodule = "blog.php";
+$defaultpage = "blog/default.php";
 ?>
