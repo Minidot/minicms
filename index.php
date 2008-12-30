@@ -18,5 +18,7 @@ if(isset($_REQUEST['page'])) {
 							   'template' => 'defualt'
 							   );
 }
-echo $pageinfo->name;
+
+// Get the page module
+require("modules/".$pageinfo->module);
 ?>
