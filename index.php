@@ -20,5 +20,5 @@ if(isset($_REQUEST['page'])) {
 }
 
 // Get the page module
-require("modules/".$pageinfo->module);
+require("minicms/modules/".$pageinfo->module);
 ?>
