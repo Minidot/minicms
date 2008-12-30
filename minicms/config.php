@@ -9,4 +9,7 @@ $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "root";
 $dbname = "minicms";
+
+// Default Module Info
+$defaultmodule = "blog.php"
 ?>

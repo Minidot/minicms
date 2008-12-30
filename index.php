@@ -15,7 +15,7 @@ if(isset($_REQUEST['page'])) {
 							   'id' => 0,
 							   'name' => 'Home',
 							   'module' => 'blog',
-							   'template' => 'defualt'
+							   'template' => $defaultmodule
 							   );
 }
 
