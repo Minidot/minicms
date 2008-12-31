@@ -11,6 +11,7 @@ $dbpass = "root";
 $dbname = "minicms";
 
 // Default Page Info
-$defaultmodule = "blog.php";
-$defaultpage = "blog/default.php";
+$defaultmodule = "blog";
+$defaultpage = "blog/default";
+$defaulttemplate = "blogposts";
 ?>
