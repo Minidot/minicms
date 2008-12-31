@@ -7,7 +7,7 @@
 // Get posts
 $getposts = mysql_query("SELECT * FROM blogposts ORDER BY timestamp DESC") or die(mysql_error());
 while($postinfo = mysql_fetch_array($getposts)) {
-	$posts[] = $postinfo;
+	$posts[] = (object) $postinfo;
 }
 require("minicms/templates/".$pageinfo->template.".php")
 ?>
