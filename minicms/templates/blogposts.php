@@ -7,6 +7,7 @@
 </head>
 <body>
 <? include('header.php'); ?>
+<div id="content" class="content-wide">
 <?php
 foreach($posts as $post) {
 ?>
@@ -21,6 +22,7 @@ foreach($posts as $post) {
 <?
 }
 ?>
+</div>
 <? include('footer.php'); ?>
 </body>
 </html>

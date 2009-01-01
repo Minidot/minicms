@@ -17,4 +17,22 @@
 	#header h1 {
 		margin: 0px;
 	}
+	#footer {
+		background: #333;
+		color: #7F7F7F;
+		padding: 5px;
+	}
+	
+	/* Content */
+	#content {
+		background: #fff;
+	}
+	.content-wide {
+		padding: 5px;
+	}
+	
+	/* Other */
+	.hidden {
+		display: none;
+	}
 </style>
