@@ -13,9 +13,9 @@ if(isset($_REQUEST['page'])) {
 } else {
 	$pageinfo = (object) array(
 							   'id' => 0,
-							   'name' => 'Home',
-							   'module' => $defaultmodule,
-							   'template' => $defaulttemplate
+							   'name' => $_CMS->defaultpage->name,
+							   'module' => $_CMS->defaultpage->module,
+							   'template' => $_CMS->defaultpage->template
 							   );
 }
 

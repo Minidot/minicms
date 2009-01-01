@@ -4,14 +4,23 @@
 	Copyright (c) 2008 Minidot
 */
 
+// CMS Settings
+$_CMS = (object)
+		array(
+			  'sitename' => 'miniCMS'
+			  );
+
+// Default Page Settings
+$_CMS->defaultpage = (object)
+						array(
+							  'name' => "Blog",
+							  'module' => 'blog',
+							  'template' => 'blogposts'
+							  );
+
 // Database Info
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "root";
 $dbname = "minicms";
-
-// Default Page Info
-$defaultmodule = "blog";
-$defaultpage = "blog/default";
-$defaulttemplate = "blogposts";
 ?>

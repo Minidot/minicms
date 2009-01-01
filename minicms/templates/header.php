@@ -1,0 +1,1 @@
+<h1><?=$_CMS->sitename?></h1>
