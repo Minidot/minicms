@@ -8,6 +8,11 @@
 		font-size: 14px;
 	}
 	
+	#wrapper {
+		width: 1024px;
+		margin: 0 auto;
+	}
+	
 	/* Header and Footer */
 	#header {
 		background: #004080;

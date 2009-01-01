@@ -4,10 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?=$_CMS->sitename?></title>
 <? include('headerinc.php'); ?>
+<? include('blog-style.php'); ?>
 </head>
 <body>
 <? include('header.php'); ?>
-<div id="content" class="content-wide">
+<div id="content" class="content-wide blog">
 <?php
 foreach($posts as $post) {
 ?>
