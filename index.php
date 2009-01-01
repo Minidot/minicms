@@ -1,7 +1,7 @@
 <?php
 /*
 	MiniCMS
-	Copyright (c) 2008 Minidot
+	Copyright (c) 2008-2009 Minidot
 */
 
 // Get the global file.
